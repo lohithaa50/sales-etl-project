@@ -1,0 +1,7 @@
+OrderID,CustomerID,ProductID,Quantity,CustomerName,City,ProductName,Category,Price,TotalSales
+5002,102,P02,2,Sarah,BOSTON,Phone,Electronics,700.0,1400.0
+5001,101,P01,1,John,NEW YORK,Laptop,Electronics,1000.0,1000.0
+5004,103,P01,1,Mike,CHICAGO,Laptop,Electronics,1000.0,1000.0
+5005,104,P04,2,Lisa,NEW YORK,Desk,Furniture,500.0,1000.0
+5006,102,P01,1,Sarah,BOSTON,Laptop,Electronics,1000.0,1000.0
+5003,101,P03,3,John,NEW YORK,Chair,Furniture,250.0,750.0
