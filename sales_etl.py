@@ -16,6 +16,7 @@ orders["Quantity"] = orders["Quantity"].astype(int)
 result = pd.merge(orders, customers, on="CustomerID", how="inner")
 result = pd.merge(result, products, on="ProductID", how="inner")
 result["TotalSales"] = result["Quantity"] * result["Price"]
+result["Discount"] = result["TotalSales"] * 0.10
 result["Tax"] = result["TotalSales"] * 0.05
 result = result.sort_values(by="TotalSales", ascending=False)
 result.to_csv("output/finalsales.csv", index=False)
